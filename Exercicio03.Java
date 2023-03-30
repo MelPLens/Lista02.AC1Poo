@@ -1,6 +1,5 @@
-// Exercício 3
-pacote  Lista02 ;
-
+ */
+package Lista02;
 
 public  class  Vendedor {
     
@@ -8,13 +7,54 @@ public  class  Vendedor {
     private int codigo;
     private String nome;
     private double percentualComissao;
+
+    /**
+     * @return the codigo
+     */
+    public int getCodigo() {
+        return codigo;
+    }
+
+    /**
+     * @param codigo the codigo to set
+     */
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
+
+    /**
+     * @return the nome
+     */
+    public String getNome() {
+        return nome;
+    }
+
+    /**
+     * @param nome the nome to set
+     */
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    /**
+     * @return the percentualComissao
+     */
+    public double getPercentualComissao() {
+        return percentualComissao;
+    }
+
+    /**
+     * @param percentualComissao the percentualComissao to set
+     */
+    public void setPercentualComissao(double percentualComissao) {
+        this.percentualComissao = percentualComissao;
+    }
 }
     
+
+
     
-     public Vendedor() {
-       return  Vendedor ;
-    }
-    
+  
     public  Vendedor ( codigo :int, nome : String , percentualComissao :double){
     
 }
@@ -58,4 +98,6 @@ public  class  Vendedor {
         return  "Verificacação feita do vendedor : " + Vendedor ;
     }
 }         
+}
+
 }
