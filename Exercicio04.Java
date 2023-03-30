@@ -1,5 +1,5 @@
 // Exercício 4
-// metodo static no final!!
+// metodo static apos os metodos!!
 
 pacote  Lista02 ;
 
