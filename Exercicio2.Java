@@ -1,8 +1,12 @@
-// Exercicio 2
 package Lista02;
 
-
+/**
+ *
+ * @author aluno
+ */
 public class Apolice {
+    // Exercicio 2
+
     
     // atributos
     private int numero;
@@ -23,12 +27,12 @@ public class Apolice {
     
     public double calcularValor(){
         
-         if ( sexo=="M" & idade<=25)
+        for (int sexo = M; idade >= 25); {
+        }
              return valorAutomovel*10/100;
-         
-         if ( sexo=="M" & idade>=25)
+         if ( sexo=="M" & idade>=25);
                return valorAutomovel*5/100;
-         
+         &
          if ( sexo=="F")
                return valorAutomovel*2/100;
         
@@ -64,4 +68,4 @@ public class Apolice {
  
 }
          
-}
+    
